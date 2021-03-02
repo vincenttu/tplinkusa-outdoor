@@ -19,7 +19,7 @@
 
 project = 'TP-Link USA Outdoor Solution Guide'
 copyright = '2021, TP-Link USA'
-author = 'TP-Link USA'
+# author = 'TP-Link USA'
 
 
 # -- General configuration ---------------------------------------------------
@@ -28,6 +28,7 @@ author = 'TP-Link USA'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx_copybutton'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -44,7 +45,9 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'default'
+html_logo = 'new-logo.png'
+html_favicon = 'tplink.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

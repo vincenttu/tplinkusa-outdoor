@@ -11,20 +11,73 @@ There are many TP-Link products can extend the Internet coverage at your home an
 Near Site or Remote Site
 ------------------------
 
-We will discuss the different solution to extend the Internet around your house within 100 meters (300 feet) or farther connection more than 300 feet and less than 18 miles to your other personal property.
+We will discuss the different solution to extend the Internet around your house within 100 meters (300 feet) or farther connection more than 300 feet and less than 18 miles to your other personal property. You do have more choices to extend the home network just around your house. To extend the Internet to the remote house or second work place, you need to build a point-to-point wireless bridge and then re-broadcast the signal on remote location. Different connectivities has different environmental requirements. Please review your situation and then choose the best one.
 
 Near Site network extension (up to 100 meter or 300 feet)
 ---------------------------------------------------------
 
-Powerline communication
-~~~~~~~~~~~~~~~~~~~~~~~
+You probably have very good indoor wireless, and you want to extend the signal to the patio or your backyard. The wireless signal can easily penetrate through the window glass, but it is hard to penetrate the stucco wall. Most of the stucco walls installed the mesh wire to hold the material. The mesh metal is the perfect blocker of the wireless signal. It can prevent the wireless interference from outside of the house. At the same time, it can prevent the signal transmit from indoor to the outdoor as well.
 
-If you build your backyard office or summer house lately, you probably will bury a data wire with the powerline from your main house to the isolated shed. If you do have a powerline to the shed and no data wire, there is another chance to extend your network easily using the buried powerline.
+You need to set up a wired communication to penetrate the exterior building wall. You can choose power line communication technology or simply the traditional network cable.
 
-Using the powerline for data communication, you need to find the direct connect electric loop connecting your home and the shed. Most of the time, the powerline will be isolated by the circuit bracker of the main house and the shed. Therefor, there are at least 2 circuit breaker to jump over. If you can find the power outlet right next to the circuit breaker, that will be the best location to install the powerline adapter. The data transmission rate will be vary to the different powerline.
+.. image:: /images/mesh_wires.jpeg
+    :width: 50%
+
+Power line communication
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you want to extend the wireless signal from indoor to outdoor patio. The TL-WPAxx series product is the choice. It comes with two power line communication adapters. One can relay the data from the network cable to the power line and the other adapter has additional capability to broadcast the WiFi signal to your computer or phone directly.
+
+.. image:: /images/PLC-patio.png
+    :width: 50%
+
+Plug-in the first PLC adapter on one of the power sockets in the house. Connect the network port on the PLC adapter to the home router with network cable. Plug the second PLC adapter (with wireless feature) on the socket on your patio.
 
 .. note:: 
-   The powerline communication cannot cross over the GFCI circuit breaker. If you do have GFCI circuit breaker on either one of the panel, please use another way to extend your Internet.
+   Both PLC adapters are rated as indoor devices. If there is a change that the PLC adapter on the patio will be splashed by water, please provide appropriate protection to the PLC adapter.
+
+PLC for the backyard office
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you build your backyard office or summer house lately, you probably bury a power line from the main house to the isolated shed. If you do have a power line to the shed and no data wire, there is another chance to extend your network easily using the buried power line.
+
+.. image:: /images/PLC-backyard_office.png
+    :width: 50%
+
+Using the power line for the backyard office, you need to find the direct connect electric loop connecting your home and the backyard office. In most installations, the power line is connected between two circuit breaker panels. One on the main house and one on the backyard office. Therefore, The PLC adapters have to communicate to each other through at least 2 circuit breakers. Circuit breakers can be a challenge to the power line communication, with the latest technology the signal can still pass through them, but not the AFCI or GFCI type circuit breakers. Find the close by power socket to the power panel to build the best communication that you can have.
+
+
+.. image:: /images/AFCI_Breaker.png
+    :width: 10%
+
+.. note:: 
+   Other than AFCI or GFCI circuit breaker, you need to avoid the surge protector, power strip, and UPS. Those devices will filter the high frequency transpassing which the power line communication depends on.
+
+Outdoor Wireless Access Point
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If your patio is not shedded or the power line communication was not the best choice. You can choose to install an outdoor access point.
+ 
+There are 2 different choices of the outdoor wireless access points from TP-Link, the omni-directional EAP outdoor access points (EAP225-Outdoor and EAP110-Outdoor), and the directional CPE outdoor access points (CPE210, CPE510, and CPE710). All outdoor wireless access points come with waterproof housing which can be exposed with cover or not.
+
+Omni-directional EAP Outdoor Wireless Access points
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+The EAP Outdoor wireless access points are part of Omada SDN business network. You can control the indoor and outdoor network with the same Omada SDN controller. Or, you can use the Omada outdoor EAP as a standalone wireless access point without a controller. Two of the models are available:
+ 
+* `EAP110-Outdoor 2.4GHz N300 Outdoor Wireless Access Point`_ |ExtLink|
+* `EAP225-Outdoor dual-band AC1200 Outdoor Wireless Access Point`_ |ExtLink|
+
+.. _EAP110-Outdoor 2.4GHz N300 Outdoor Wireless Access Point: https://www.tp-link.com/us/business-networking/ceiling-mount-access-point/eap110-outdoor/
+
+.. _EAP225-Outdoor dual-band AC1200 Outdoor Wireless Access Point: https://www.tp-link.com/us/business-networking/ceiling-mount-access-point/eap225-outdoor/
+
+.. note:: 
+   There are more features available with the EAP working in controller mode. If you do have a good indoor EAP wireless signal right outside of the house, it is possible to establish a wireless mesh network from inside your house to outdoor area. For more information, please reference to the `Omada SDN Set Up Guide`_ |ExtLink|.
+
+.. _Omada SDN Set Up Guide: https://omada-sdn.readthedocs.io/en/latest/
+.. |ExtLink| image:: /images/External_Link.png
+                     :width: 10 px
 
 
 .. toctree::
@@ -33,9 +86,9 @@ Using the powerline for data communication, you need to find the direct connect 
 
 
 
-Indices and tables
-==================
+.. Indices and tables
+.. ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`

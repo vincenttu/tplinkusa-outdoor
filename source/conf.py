@@ -46,8 +46,8 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'default'
-html_logo = 'new-logo.png'
-html_favicon = 'tplink.ico'
+html_logo = 'images/TL-Link_readthedocs.png'
+html_favicon = 'images/tplink.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

@@ -79,6 +79,47 @@ The EAP Outdoor wireless access points are part of Omada SDN business network. Y
 .. |ExtLink| image:: /images/External_Link.png
                      :width: 10 px
 
+.. image:: /images/EAP225-patio.png
+    :width: 50%
+
+Set up the EAP Outdoor wireless access point is easy. There is a PoE injector that comes with the package. Plug one end of the network cable to the Outdoor EAP and plug in to the **PoE** port on the PoE injector with the other end of the network cable. Prepare another network cable connecting the network port of the PoE injector to your home gateway.
+
+.. note:: 
+   check up this `how to guide`_ |ExtLink| for detailed steps setting up the EAP in standalone mode.
+
+.. _how to guide: https://omada-sdn.readthedocs.io/en/latest/
+
+Directional Outdoor Wireless Access points
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+The CPE Outdoor wireless access points are part of Pharos long distance wireless bridge products. You can also use it to extend the signal around your house if the coverage is good to you:
+ 
+* `CPE210 2.4GHz N300 Outdoor Wireless Access Point`_ |ExtLink|
+* `CPE510 5GHz N300 Outdoor Wireless Access Point`_ |ExtLink|
+* `CPE710 5GHz AC867 Outdoor Wireless Access Point`_ |ExtLink|
+
+.. _CPE210 2.4GHz N300 Outdoor Wireless Access Point: https://www.tp-link.com/us/business-networking/outdoor-radio/cpe210/
+
+.. _CPE510 5GHz N300 Outdoor Wireless Access Point: https://www.tp-link.com/us/business-networking/outdoor-radio/cpe510/
+
+.. _CPE710 5GHz AC867 Outdoor Wireless Access Point: https://www.tp-link.com/us/business-networking/outdoor-radio/cpe710/
+
+.. note:: 
+   There are more features available with the EAP working in controller mode. If you do have a good indoor EAP wireless signal right outside of the house, it is possible to establish a wireless mesh network from inside your house to outdoor area. For more information, please reference to the `Omada SDN Set Up Guide`_ |ExtLink|.
+
+.. _Omada SDN Set Up Guide: https://omada-sdn.readthedocs.io/en/latest/
+.. |ExtLink| image:: /images/External_Link.png
+                     :width: 10 px
+
+.. image:: /images/EAP225-patio.png
+    :width: 50%
+
+Set up the EAP Outdoor wireless access point is easy. There is a PoE injector that comes with the package. Plug one end of the network cable to the Outdoor EAP and plug in to the **PoE** port on the PoE injector with the other end of the network cable. Prepare another network cable connecting the network port of the PoE injector to your home gateway.
+
+.. note:: 
+   check up this `how to guide`_ |ExtLink| for detailed steps setting up the EAP in standalone mode.
+
+.. _how to guide: https://omada-sdn.readthedocs.io/en/latest/
 
 .. toctree::
    :maxdepth: 2

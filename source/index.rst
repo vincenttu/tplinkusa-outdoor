@@ -27,7 +27,7 @@ Power line communication
 If you want to extend the wireless signal from indoor to outdoor patio. The TL-WPAxx series product is the choice. It comes with two power line communication adapters. One can relay the data from the network cable to the power line and the other adapter has additional capability to broadcast the WiFi signal to your computer or phone directly.
 
 .. image:: /images/PLC-patio.png
-    :width: 80%
+    :width: 60%
     :align: center
 
 Plug-in the first PLC adapter on one of the power sockets in the house. Connect the network port on the PLC adapter to the home router with network cable. Plug the second PLC adapter (with wireless feature) on the socket on your patio.
@@ -138,13 +138,16 @@ The CPE Outdoor wireless access point provides a strong outgoing signal as well 
 
 Different model of the Outdoor CPE has different beam width 
 
-+-----------+--------+--------+--------+--------------------+
-| Model     | CPE210 | CPE510 | CPE710 | CPE710 - Feed only |
-+===========+========+========+========+====================+
-| Beamwidth | 65°    | 45°    | 9°     | ~ 45°              |
-+-----------+--------+--------+--------+--------------------+
-| Antenna   | 9 dBi  | 13 dBi | 23 dB  | ~                  |
-+-----------+--------+--------+--------+--------------------+
+.. table:: Access point radio beamwidth
+    :align: center
+
+    +-----------+--------+--------+--------+--------------------+
+    | Model     | CPE210 | CPE510 | CPE710 | CPE710 - Feed only |
+    +===========+========+========+========+====================+
+    | Beamwidth | 65°    | 45°    | 9°     | ~ 45°              |
+    +-----------+--------+--------+--------+--------------------+
+    | Antenna   | 9 dBi  | 13 dBi | 23 dB  | ~                  |
+    +-----------+--------+--------+--------+--------------------+
 
 Choose the Outdoor CPE which has a good coverage and the best wireless gain for the best result.
 

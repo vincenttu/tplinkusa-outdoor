@@ -26,6 +26,7 @@ Device characteristics
 ----------------------
 
 .. table:: Device Radio Characteristics
+    :widths: auto
 
     +-----------+--------+--------+--------+----------------+----------------+------------+
     | Model     | CPE210 | CPE510 | CPE710 | EAP225-Outdoor | EAP110-Outdoor | Cell Phone |
@@ -55,7 +56,8 @@ With all the formula and device parameters, let’s calculate the estimated wire
 A good receiving sensitivity on the cell phone is assumed to be -75dB. Sometimes the sensitivity is better or worse and it can be included in the 20dB margin.
 
 .. table:: Range estimation from an AP to a cell phone
-    
+    :widths: auto
+
     +----------------+-----------+----------+--------------+--------+--------+--------------+-------------+-----------+
     | Model          | Frequency | Tx Power | Antenna Gain | FSPL   | Margin | Antenna Gain | Sensitivity | Distance  |
     +================+===========+==========+==============+========+========+==============+=============+===========+
@@ -73,7 +75,8 @@ A good receiving sensitivity on the cell phone is assumed to be -75dB. Sometimes
 From the table, we can find that the transmission from the outdoor access point to the cell phone. It looks pretty good. But, most of the applications we are using today requires two way communications. Let’s take a look at the return path.
 
 .. table:: Range estimation from a cell phone to an AP
-
+    :widths: auto
+    
     +----------------+-----------+----------+--------------+--------+--------+--------------+-------------+----------+
     | Model          | Frequency | Tx Power | Antenna Gain | FSPL   | Margin | Antenna Gain | Sensitivity | Distance |
     +================+===========+==========+==============+========+========+==============+=============+==========+

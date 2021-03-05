@@ -76,7 +76,7 @@ The EAP Outdoor wireless access points are part of Omada SDN business network. Y
 
 .. _Omada SDN Set Up Guide: https://omada-sdn.readthedocs.io/en/latest/
 
-.. image:: /images/EAP225-patio.png
+.. image:: /images/eap225-patio.png
     :width: 80%
     :align: center
 
@@ -98,13 +98,13 @@ Outdoor wireless mesh networking
 
 Extending radio signal with outdoor EAP is different to the outdoor CPE. The only outdoor EAP supports wireless extender feature is the EAP225-Outdoor. To extend the radio signal, you have to set up a wireless mesh network. The wireless mesh network requires a controller to coordinate the traffic, so a basic topology of outdoor EAP mesh network can be like this.
 
-.. image:: /images/EAP225-mesh.png
+.. image:: /images/eap225-mesh.png
     :width: 80%
     :align: center
 
 The EAP225-Outdoor mesh can wirelessly link back to the network up to 3 hops. A complex yacht club wireless deployment can be achieved easily with the outdoor EAP mesh network.
 
-.. figure:: /images/EAP225-yacht.png
+.. figure:: /images/eap225-yacht.png
     :width: 80%
     :align: center
     

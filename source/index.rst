@@ -77,6 +77,8 @@ The EAP Outdoor wireless access points are part of Omada SDN business network. Y
 .. _Omada SDN Set Up Guide: https://omada-sdn.readthedocs.io/en/latest/
 
 .. image:: /images/EAP225-patio.png
+    :width: 80%
+    :align: center
 
 Set up the EAP Outdoor wireless access point is easy. There is a PoE injector that comes with the package. Plug one end of the network cable to the Outdoor EAP and plug in to the **PoE** port on the PoE injector with the other end of the network cable. Prepare another network cable connecting the network port of the PoE injector to your home gateway.
 
@@ -90,6 +92,24 @@ The coverage of the wireless can be 100 meter (300 feet) radius from the access 
 .. image:: /images/EAP225-coverage.png
     :width: 80%
     :align: center
+
+Outdoor wireless mesh networking
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Extending radio signal with outdoor EAP is different to the outdoor CPE. The only outdoor EAP supports wireless extender feature is the EAP225-Outdoor. To extend the radio signal, you have to set up a wireless mesh network. The wireless mesh network requires a controller to coordinate the traffic, so a basic topology of outdoor EAP mesh network can be like this.
+
+.. image:: /images/EAP225-mesh.png
+    :width: 80%
+    :align: center
+
+The EAP225-Outdoor mesh can wirelessly link back to the network up to 3 hops. A complex yacht club wireless deployment can be achieved easily with the outdoor EAP mesh network.
+
+.. figure:: /images/EAP225-yacht.png
+    :width: 80%
+    :align: center
+    
+    A yacht club wireless deployment example with EAP225-Outdoor
+
 
 Directional Outdoor Wireless Access points
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -141,14 +161,16 @@ One of the way using the CPE710 is use the access point with the feed antenna on
 Remote Site network expansion (more than 100 meter or 300 feet and up to 18 miles)
 ----------------------------------------------------------------------------------
 
-If you have a barn house, a remote surveillance camera, or a door bell on the vineyard entrance, and the distance to your house is more than 300 feet, it is suggested that you build a wireless bridge.
+If you have a barn house, a remote surveillance camera, or a video doorbell on the vineyard entrance, and the distance from your house is more than 300 feet, you can use the outdoor CPE building a wireless bridge to expand the network.
 
+On the remote site, you can broadcast the wireless signal with an additional wireless access point when necessary.
 
-
-
+.. image:: /images/cpe-dock_house.png
+    :width: 80%
+    :align: center
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Document Index:
 
    wireless_range

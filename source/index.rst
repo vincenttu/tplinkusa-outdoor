@@ -1,7 +1,4 @@
-.. TP-Link USA Outdoor Solution Guide documentation master file, created by
-   sphinx-quickstart on Sat Feb 27 17:27:29 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. TP-Link USA Outdoor Solution Guide master file
 
 TP-Link USA Outdoor Solution Guide
 ==================================
@@ -22,6 +19,7 @@ You need to set up a wired communication to penetrate the exterior building wall
 
 .. image:: /images/mesh_wires.jpeg
     :width: 50%
+    :align: center
 
 Power line communication
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -29,7 +27,8 @@ Power line communication
 If you want to extend the wireless signal from indoor to outdoor patio. The TL-WPAxx series product is the choice. It comes with two power line communication adapters. One can relay the data from the network cable to the power line and the other adapter has additional capability to broadcast the WiFi signal to your computer or phone directly.
 
 .. image:: /images/PLC-patio.png
-    :width: 50%
+    :width: 80%
+    :align: center
 
 Plug-in the first PLC adapter on one of the power sockets in the house. Connect the network port on the PLC adapter to the home router with network cable. Plug the second PLC adapter (with wireless feature) on the socket on your patio.
 
@@ -42,13 +41,13 @@ PLC for the backyard office
 If you build your backyard office or summer house lately, you probably bury a power line from the main house to the isolated shed. If you do have a power line to the shed and no data wire, there is another chance to extend your network easily using the buried power line.
 
 .. image:: /images/PLC-backyard_office.png
-    :width: 50%
 
 Using the power line for the backyard office, you need to find the direct connect electric loop connecting your home and the backyard office. In most installations, the power line is connected between two circuit breaker panels. One on the main house and one on the backyard office. Therefore, The PLC adapters have to communicate to each other through at least 2 circuit breakers. Circuit breakers can be a challenge to the power line communication, with the latest technology the signal can still pass through them, but not the AFCI or GFCI type circuit breakers. Find the close by power socket to the power panel to build the best communication that you can have.
 
 
 .. image:: /images/AFCI_Breaker.png
     :width: 10%
+    :align: center
 
 .. note:: 
    Other than AFCI or GFCI circuit breaker, you need to avoid the surge protector, power strip, and UPS. Those devices will filter the high frequency transpassing which the power line communication depends on.
@@ -78,7 +77,6 @@ The EAP Outdoor wireless access points are part of Omada SDN business network. Y
 .. _Omada SDN Set Up Guide: https://omada-sdn.readthedocs.io/en/latest/
 
 .. image:: /images/EAP225-patio.png
-    :width: 50%
 
 Set up the EAP Outdoor wireless access point is easy. There is a PoE injector that comes with the package. Plug one end of the network cable to the Outdoor EAP and plug in to the **PoE** port on the PoE injector with the other end of the network cable. Prepare another network cable connecting the network port of the PoE injector to your home gateway.
 
@@ -91,6 +89,7 @@ The coverage of the wireless can be 100 meter (300 feet) radius from the access 
 
 .. image:: /images/EAP225-coverage.png
     :width: 80%
+    :align: center
 
 Directional Outdoor Wireless Access points
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -131,12 +130,13 @@ Choose the Outdoor CPE which has a good coverage and the best wireless gain for 
 
 .. image:: /images/cpe_coverage.png
     :width: 80%
+    :align: center
 
 One of the way using the CPE710 is use the access point with the feed antenna only, without reflective dish. The reflective dish can refocus the wireless signal to a certain direction with concentrated power. If you use the CPE710 in near site, just around your house, it is possible not using the reflective dish.
 
 .. image:: /images/cpe710-feed-mode.png
     :width: 80%
-
+    :align: center
 
 Remote Site network expansion (more than 100 meter or 300 feet and up to 18 miles)
 ----------------------------------------------------------------------------------
@@ -145,15 +145,10 @@ If you have a barn house, a remote surveillance camera, or a door bell on the vi
 
 
 
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    wireless_range
-
-.. Indices and tables
-.. ==================
-
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`

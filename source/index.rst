@@ -76,8 +76,6 @@ The EAP Outdoor wireless access points are part of Omada SDN business network. Y
    There are more features available with the EAP working in controller mode. If you do have a good indoor EAP wireless signal right outside of the house, it is possible to establish a wireless mesh network from inside your house to outdoor area. For more information, please reference to the `Omada SDN Set Up Guide`_ |ExtLink|.
 
 .. _Omada SDN Set Up Guide: https://omada-sdn.readthedocs.io/en/latest/
-.. |ExtLink| image:: /images/External_Link.png
-                     :width: 10 px
 
 .. image:: /images/EAP225-patio.png
     :width: 50%
@@ -88,6 +86,11 @@ Set up the EAP Outdoor wireless access point is easy. There is a PoE injector th
    check up this `how to guide`_ |ExtLink| for detailed steps setting up the EAP in standalone mode.
 
 .. _how to guide: https://omada-sdn.readthedocs.io/en/latest/
+
+The coverage of the wireless can be 100 meter (300 feet) radius from the access point.
+
+.. image:: /images/EAP225-coverage.png
+    :width: 80%
 
 Directional Outdoor Wireless Access points
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -98,34 +101,55 @@ The CPE Outdoor wireless access points are part of Pharos long distance wireless
 * `CPE510 5GHz N300 Outdoor Wireless Access Point`_ |ExtLink|
 * `CPE710 5GHz AC867 Outdoor Wireless Access Point`_ |ExtLink|
 
+.. |ExtLink| image:: /images/External_Link.png
+                     :width: 10 px
+
 .. _CPE210 2.4GHz N300 Outdoor Wireless Access Point: https://www.tp-link.com/us/business-networking/outdoor-radio/cpe210/
 
 .. _CPE510 5GHz N300 Outdoor Wireless Access Point: https://www.tp-link.com/us/business-networking/outdoor-radio/cpe510/
 
 .. _CPE710 5GHz AC867 Outdoor Wireless Access Point: https://www.tp-link.com/us/business-networking/outdoor-radio/cpe710/
 
-.. note:: 
-   There are more features available with the EAP working in controller mode. If you do have a good indoor EAP wireless signal right outside of the house, it is possible to establish a wireless mesh network from inside your house to outdoor area. For more information, please reference to the `Omada SDN Set Up Guide`_ |ExtLink|.
+The CPE Outdoor wireless access point provides a strong outgoing signal as well as a high  receiving sensitivity. It can extend the range of the wireless and the communication range will be decided by the lower powered transceiver. Most of the time, it is your laptop or cell phone if you don’t use a pair of CPE.
 
-.. _Omada SDN Set Up Guide: https://omada-sdn.readthedocs.io/en/latest/
-.. |ExtLink| image:: /images/External_Link.png
-                     :width: 10 px
+.. note::
+   Here’s a reference page about `how to calculate the wireless range`_ 
 
-.. image:: /images/EAP225-patio.png
-    :width: 50%
+.. _how to calculate the wireless range: wireless_range.html
 
-Set up the EAP Outdoor wireless access point is easy. There is a PoE injector that comes with the package. Plug one end of the network cable to the Outdoor EAP and plug in to the **PoE** port on the PoE injector with the other end of the network cable. Prepare another network cable connecting the network port of the PoE injector to your home gateway.
+Different model of the Outdoor CPE has different beam width 
 
-.. note:: 
-   check up this `how to guide`_ |ExtLink| for detailed steps setting up the EAP in standalone mode.
++-----------+--------+--------+--------+--------------------+
+| Model     | CPE210 | CPE510 | CPE710 | CPE710 - Feed only |
++===========+========+========+========+====================+
+| Beamwidth | 65°    | 45°    | 9°     | ~ 45°              |
++-----------+--------+--------+--------+--------------------+
+| Antenna   | 9 dBi  | 13 dBi | 23 dB  | ~                  |
++-----------+--------+--------+--------+--------------------+
 
-.. _how to guide: https://omada-sdn.readthedocs.io/en/latest/
+Choose the Outdoor CPE which has a good coverage and the best wireless gain for the best result.
+
+.. image:: /images/cpe_coverage.png
+    :width: 80%
+
+One of the way using the CPE710 is use the access point with the feed antenna only, without reflective dish. The reflective dish can refocus the wireless signal to a certain direction with concentrated power. If you use the CPE710 in near site, just around your house, it is possible not using the reflective dish.
+
+.. image:: /images/cpe710-feed-mode.png
+    :width: 80%
+
+
+Remote Site network expansion (more than 100 meter or 300 feet and up to 18 miles)
+----------------------------------------------------------------------------------
+
+If you have a barn house, a remote surveillance camera, or a door bell on the vineyard entrance, and the distance to your house is more than 300 feet, it is suggested that you build a wireless bridge.
+
+
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
+   wireless_range
 
 .. Indices and tables
 .. ==================

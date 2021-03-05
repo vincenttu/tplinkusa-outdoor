@@ -54,41 +54,16 @@ With all the formula and device parameters, let’s calculate the estimated wire
 
 A good receiving sensitivity on the cell phone is assumed to be -75dB. Sometimes the sensitivity is better or worse and it can be included in the 20dB margin.
 
-.. table:: Range estimation from an AP to a cell phone
+.. figure:: images/ap-to-cellphone.png
 
-    +-----------+--------+-------+-------+-------+--------+------+-------------+----------+
-    | Model     | Freq.  | Tx    | Tx    | FSPL  | Margin | Rx   | Sensitivity | Distance |
-    |           |        | Power | Ant.  |       |        | Ant. |             |          |
-    +===========+========+=======+=======+=======+========+======+=============+==========+
-    | CPE210    | 2.4GHz | 25dBm | 9dBi  | 91dB  | 20dB   | 2dBi | -75dB       | 353m     |
-    +-----------+--------+-------+-------+-------+--------+------+-------------+----------+
-    | CPE510    | 5GHz   | 26dBm | 13dBi | 96dB  | 20dB   | 2dBi | -75dB       | 301m     |
-    +-----------+--------+-------+-------+-------+--------+------+-------------+----------+
-    | CPE710    | 5GHz   | 27dBm | 23dBi | 107dB | 20dB   | 2dBi | -75dB       | 1,068m   |
-    +-----------+--------+-------+-------+-------+--------+------+-------------+----------+
-    | EAP225-OD | 5GHz   | 30dBm | 3dBi  | 90dB  | 20dB   | 2dBi | -75dB       | 151m     |
-    +-----------+--------+-------+-------+-------+--------+------+-------------+----------+
-    | EAP110-OD | 2.4GHz | 30dBm | 4dBi  | 90dB  | 20dB   | 2dBi | -75dB       | 314m     |
-    +-----------+--------+-------+-------+-------+--------+------+-------------+----------+
+    Range estimation from an AP to a cell phone
+
 
 From the table, we can find that the transmission from the outdoor access point to the cell phone. It looks pretty good. But, most of the applications we are using today requires two way communications. Let’s take a look at the return path.
 
-.. table:: Range estimation from a cell phone to an AP
+.. figure:: images/cellphone-to-ap.png
 
-    +-----------+--------+-------+-------+-------+--------+------+-------------+----------+
-    | Model     | Freq.  | Tx    | Tx    | FSPL  | Margin | Rx   | Sensitivity | Distance |
-    |           |        | Power | Ant.  |       |        | Ant. |             |          |
-    +===========+========+=======+=======+=======+========+======+=============+==========+
-    | CPE210    | 2.4GHz | 10dBm | 2dBi  | 91dB  | 20dB   | 9dBi | -80dB       | 112m     |
-    +-----------+--------+-------+-------+-------+--------+------+-------------+----------+
-    | CPE510    | 5GHz   | 10dBm | 2dBi  | 96dB  | 20dB   | 13dBi| -80dB       | 85m      |
-    +-----------+--------+-------+-------+-------+--------+------+-------------+----------+
-    | CPE710    | 5GHz   | 10dBm | 2dBi  | 107dB | 20dB   | 23dBi| -80dB       | 268m     |
-    +-----------+--------+-------+-------+-------+--------+------+-------------+----------+
-    | EAP225-OD | 5GHz   | 10dBm | 2dBi  | 90dB  | 20dB   | 3dBi | -80dB       | 27m      |
-    +-----------+--------+-------+-------+-------+--------+------+-------------+----------+
-    | EAP110-OD | 2.4GHz | 10dBm | 2dBi  | 90dB  | 20dB   | 4dBi | -80dB       | 63m      |
-    +-----------+--------+-------+-------+-------+--------+------+-------------+----------+
+    Range estimation from a cell phone to an AP
 
 The distance estimation is much shorter because of the radio power provided by the cell phone. The transmit power can be better if you have an external wireless adapter on a laptop computer, such as Archer T4U Plus.
 

@@ -90,7 +90,7 @@ Set up the EAP Outdoor wireless access point is easy. There is a PoE injector th
 
 The coverage of the wireless can be 100 meter (300 feet) radius from the access point.
 
-.. image:: /images/EAP225-coverage.png
+.. image:: /images/eap225-coverage.png
     :width: 80%
     :align: center
 

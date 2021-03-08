@@ -3,19 +3,20 @@
 TP-Link USA Outdoor Solution Guide
 ==================================
 
-There are many TP-Link products can extend the Internet coverage at your home and beyond. This document intended to discuss the various ways to extend your home network to your backyard, or remote barn house.
+There are many TP-Link products that can extend the Internet coverage from your home or business to the outdoor area. This document intended to introduce the various ways to extend your indoor network to the outdoor areas, your backyard, remote barn house, yacht club, or campgrounds.
 
 Near Site or Remote Site
 ------------------------
 
-We will discuss the different solution to extend the Internet around your house within 100 meters (300 feet) or farther connection more than 300 feet and less than 18 miles to your other personal property. You do have more choices to extend the home network just around your house. To extend the Internet to the remote house or second work place, you need to build a point-to-point wireless bridge and then re-broadcast the signal on remote location. Different connectivities has different environmental requirements. Please review your situation and then choose the best one.
+We will discuss the different solutions to extend the Internet around your house within 100 meters (300 feet) or farther connections. There are more possible solutions to extend the network just around the house. To extend the network to the remote house or second workplace farther than 300 feet, you need to build a point-to-point wireless bridge and then re-broadcast the signal on the remote location. Different solutions have different environmental requirements. Review the different conditions and then choose the best one for you.
 
 Near Site network extension (up to 100 meter or 300 feet)
 ---------------------------------------------------------
 
-You probably have very good indoor wireless, and you want to extend the signal to the patio or your backyard. The wireless signal can easily penetrate through the window glass, but it is hard to penetrate the stucco wall. Most of the stucco walls installed the mesh wire to hold the material. The mesh metal is the perfect blocker of the wireless signal. It can prevent the wireless interference from outside of the house. At the same time, it can prevent the signal transmit from indoor to the outdoor as well.
+You probably have very good indoor wireless, and you want to extend the network to the patio or the backyard. The wireless signal can easily penetrate through the window glass, but it is hard to penetrate the stucco wall. The reason is that most of the stucco walls are installed with the mesh metal wire to hold the filler. The mesh metal wires are the perfect blocker of the wireless signal. It can prevent the wireless interference from outside of the building to protect your home. At the same time, it can prevent the signal transmit from indoor to the outdoor as well.
 
-You need to set up a wired communication to penetrate the exterior building wall. You can choose power line communication technology or simply the traditional network cable.
+You need to set up a wired communication to penetrate the exterior wall of the building. You can choose the power line communication technology or simply the traditional network cable.
+
 
 .. image:: /images/mesh_wires.jpeg
     :width: 50%
@@ -24,13 +25,13 @@ You need to set up a wired communication to penetrate the exterior building wall
 Power line communication
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you want to extend the wireless signal from indoor to outdoor patio. The TL-WPAxx series product is the choice. It comes with two power line communication adapters. One can relay the data from the network cable to the power line and the other adapter has additional capability to broadcast the WiFi signal to your computer or phone directly.
+If you have a covered patio or waterproof electric box, you can extend the network with the power line adapters. The TL-WPAxx series power line wireless adapter kit is the easier to apply solution. The power line wireless adapter kit comes with two power line communication adapters. One adapter installed in the indoor can relay the data from the network cable to the power line and the other adapter has additional capability to broadcast the WiFi signal to your computer or phone.
 
 .. image:: /images/PLC-patio.png
     :width: 60%
     :align: center
 
-Plug-in the first PLC adapter on one of the power sockets in the house. Connect the network port on the PLC adapter to the home router with network cable. Plug the second PLC adapter (with wireless feature) on the socket on your patio.
+Plug-in the first PLC adapter on one of the power sockets in the house. Connect the network port on the PLC adapter to the home router with network cable. Plug the second PLC adapter (with wireless feature) on the power socket on your patio.
 
 .. note:: 
    Both PLC adapters are rated as indoor devices. If there is a change that the PLC adapter on the patio will be splashed by water, please provide appropriate protection to the PLC adapter.
@@ -38,11 +39,11 @@ Plug-in the first PLC adapter on one of the power sockets in the house. Connect 
 PLC for the backyard office
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you build your backyard office or summer house lately, you probably bury a power line from the main house to the isolated shed. If you do have a power line to the shed and no data wire, there is another chance to extend your network easily using the buried power line.
+If you build your backyard office or summer house lately, you probably bury a power line from the main house to the isolated shed. If you do have a power line to the shed and no data wire, you can extend your network easily using the buried power line.
 
 .. image:: /images/PLC-backyard_office.png
 
-Using the power line for the backyard office, you need to find the direct connect electric loop connecting your home and the backyard office. In most installations, the power line is connected between two circuit breaker panels. One on the main house and one on the backyard office. Therefore, The PLC adapters have to communicate to each other through at least 2 circuit breakers. Circuit breakers can be a challenge to the power line communication, with the latest technology the signal can still pass through them, but not the AFCI or GFCI type circuit breakers. Find the close by power socket to the power panel to build the best communication that you can have.
+Using the power line for the backyard office, you need to find the direct connect electric loop connecting your home and the backyard office. In most installations, the power line is connected between two circuit breaker panels. One on the main house and one on the backyard office. Therefore, The PLC adapters have to communicate to each other through at least 2 circuit breakers. Circuit breakers can be a challenge to the power line communication, with the latest technology the data communication can pass through a simple breaker, but not the AFCI or GFCI type circuit breakers. Find the close by power socket to the power panel to build the best communication that you can have.
 
 
 .. image:: /images/AFCI_Breaker.png
@@ -50,7 +51,7 @@ Using the power line for the backyard office, you need to find the direct connec
     :align: center
 
 .. note:: 
-   Other than AFCI or GFCI circuit breaker, you need to avoid the surge protector, power strip, and UPS. Those devices will filter the high frequency transpassing which the power line communication depends on.
+    Other than AFCI or GFCI circuit breaker, you need to avoid the surge protector, power strip, and UPS, Uninterrupted Power Supply. Those devices will filter the high frequency transpassing which the power line communication depends on.
 
 Outdoor Wireless Access Point
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -114,7 +115,7 @@ The EAP225-Outdoor mesh can wirelessly link back to the network up to 3 hops. A 
 Directional Outdoor Wireless Access points
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
-The CPE Outdoor wireless access points are part of Pharos long distance wireless bridge products. You can also use it to extend the signal around your house if the coverage is good to you:
+The CPE Outdoor wireless access points are part of Pharos long distance wireless bridge products. You can also use it to extend the signal around your house if the beam width coverage is good to you:
  
 * `CPE210 2.4GHz N300 Outdoor Wireless Access Point`_ |ExtLink|
 * `CPE510 5GHz N300 Outdoor Wireless Access Point`_ |ExtLink|
@@ -129,7 +130,7 @@ The CPE Outdoor wireless access points are part of Pharos long distance wireless
 
 .. _CPE710 5GHz AC867 Outdoor Wireless Access Point: https://www.tp-link.com/us/business-networking/outdoor-radio/cpe710/
 
-The CPE Outdoor wireless access point provides a strong outgoing signal as well as a high  receiving sensitivity. It can extend the range of the wireless and the communication range will be decided by the lower powered transceiver. Most of the time, it is your laptop or cell phone if you don’t use a pair of CPE.
+The CPE Outdoor wireless access point provides a strong transmitting signal as well as a high  receiving sensitivity. Building a wireless bridge with two identical CPEs can have optimal range and performance. When install only one CPE to extend the wireless range, the communication range will be decided by the weaker transmitter, usually, your wireless client such as a laptop or a cell phone.
 
 .. note::
    Here’s a reference page about `how to calculate the wireless range`_ 
@@ -149,13 +150,13 @@ Different model of the Outdoor CPE has different beam width
     | Antenna   | 9 dBi  | 13 dBi | 23 dB  | ~                  |
     +-----------+--------+--------+--------+--------------------+
 
-Choose the Outdoor CPE which has a good coverage and the best wireless gain for the best result.
+Choose the Outdoor CPE which has a good coverage and the best wireless gain for your project.
 
 .. image:: /images/cpe_coverage.png
     :width: 80%
     :align: center
 
-One of the way using the CPE710 is use the access point with the feed antenna only, without reflective dish. The reflective dish can refocus the wireless signal to a certain direction with concentrated power. If you use the CPE710 in near site, just around your house, it is possible not using the reflective dish.
+The CPE710 access point comes with a feed antenna and a reflective dish. You can install the access point with or without the reflective dish. The reflective dish can refocus the wireless signal to your remote client with concentrated power. If you use the CPE710 in the near site, just around your house, you can remove the reflective dish. However, the direction of the radio waves is opposite.
 
 .. image:: /images/cpe710-feed-mode.png
     :width: 80%

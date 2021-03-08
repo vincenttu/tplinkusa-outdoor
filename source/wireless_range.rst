@@ -5,7 +5,9 @@ A good radio power is required for a successful radio communication. The origina
 
 .. image:: /images/FSPL_Allowance.png
 
-The transmitting power, receiving sensitivity, and antenna gains are stable or maneuverable. But, the path loss can be affected by the equipment setup, blockers, such as glass or wall,  reflection, deflection or other environmental factors. It is hard to estimate the path loss if the path condition is complicated. Usually, we will clear up the factors of attenuation and then make the range estimation as accurate as possible. Assume the transmitter and the receiver are face to face with no obstacles in between and neglect the factors of the reflection and deflection, then the major factor of the path loss is the Free Space Path Loss, FSPL. And we usually set other variable factors to the margin of the signal loss.
+The transmitting power, receiving sensitivity, and antenna gains are known parameters when you choose the devices. The path loss can be the only variable. The path loss can be contributed by the equipment setup, transmitting medium, such as glass or wall,  reflection, deflection or other environmental factors. It is hard to estimate the path loss when the path condition is complicated. In practice, we will choose the clear line-of-sight wireless path to avoid the possible path loss. Then, we can assume the transmitter and the receiver are face to face with no obstacles in between and neglect the factors of the reflection and deflection. Under this condition, the major factor of the path loss is the Free Space Path Loss, FSPL.
+
+The radio waves are directional and guided by the antenna. The CPE access point concentrates the waves in a limited angle of the direction. However, the receiver still cannot receive 100% of the transmitted power. As the distance between the transmitter and receiver increases, the receiving percentage decreases. The detailed calculation can be expressed by FSPL formula.
 
 .. note:: 
    **Free Space Path Loss:** The path loss in free space is a radio wave  decreases with distance by the inverse square law. The same amount of power spreads over an area proportional to the square of distance from the source. `External Reference`_ |ExtLink|
@@ -59,7 +61,7 @@ A good receiving sensitivity on the cell phone is assumed to be -75dB. Sometimes
     Range estimation from an AP to a cell phone
 
 
-From the table, we can find that the transmission from the outdoor access point to the cell phone. It looks pretty good. But, most of the applications we are using today requires two way communications. Let’s take a look at the return path.
+From the table, we can find that the transmission from the outdoor access point to the cell phone. It looks pretty good. But, most of the applications we are using today require two way communications. Let’s take a look at the return path.
 
 .. figure:: images/cellphone-to-ap.png
 

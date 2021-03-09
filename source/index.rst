@@ -77,7 +77,7 @@ The EAP Outdoor wireless access points are part of Omada SDN business network. Y
 
 .. _Omada SDN Set Up Guide: https://omada-sdn.readthedocs.io/en/latest/
 
-.. image:: /images/eap225-patio.png
+.. image:: /images/eap225_patio.png
     :width: 80%
     :align: center
 

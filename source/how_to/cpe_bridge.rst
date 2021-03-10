@@ -14,13 +14,15 @@ Planning
 
 To set up a long distance wireless bridge, you need to make sure there is a clean Fresnel zone between the CPEs. The most easy way to avoid the trees or fences in the Fresnel zone is to raise up the antenna/CPE.
 
-..note::
+.. note::
     The wireless bridge may still work with partial clean line-of-sight, it is hard to estimate the performance on paper. You need to do an on-site survey to verify if it works.
 
 CPE Settings
 ------------
 
-It is suggested that you open the box, upgrade them to the latest firmware and set up the network before you go for the physical installation. When you go physical installation, you can then focus on how to align two CPEs facing each other.
+It is suggested that you open the box, upgrade them to the latest firmware and set up the network before you go for the physical installation. When you go physical installation, you can then focus on how to align two CPEs facing each other. Check `how to set up a CPE`_ for a step by step setting guide.
+
+.. _how to set up a CPE: how_to/cpe_onboarding.html
 
 Physical Installation
 ---------------------
@@ -39,11 +41,13 @@ Grounding is extremely important especially for outdoor devices. The Pharos CPEs
 
 .. image:: /images/cpe_grounding.png
     :align: center
+    :width: 70%
 
 If you do not have a separate grounding point, you can still make the ground connection through the shielded twisted pair network cable, STP. The network module on the CPE can ground through the STP cable, to the PoE injector and to the ground wire on the mains power ground. Please make sure your AC power source grounding is properly set up.
 
 .. image:: /images/cpe_stp.png
     :align: center
+    :width: 50%
 
 
 Video Guide
@@ -53,4 +57,4 @@ A complete set up video guide is available here:
 
 .. raw:: html
 
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ISUSlTcgWks" frameborder="0" allowfullscreen></iframe>
+    <iframe align="center" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ISUSlTcgWks" frameborder="0" allowfullscreen></iframe>

@@ -94,3 +94,6 @@ Click on the **Save** to save the settings.
     .. image:: /images/PharOS_survey.png
         :align: center
         :width: 70%
+
+.. warning::
+    Remember to change the IP address of the client CPE different to the access point CPE so you can visit both CPEs when they are connected.

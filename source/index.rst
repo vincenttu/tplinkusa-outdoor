@@ -178,3 +178,7 @@ On the remote site, you can broadcast the wireless signal with an additional wir
    :caption: Document Index:
 
    wireless_range
+   cpe_onboarding
+   cpe_bridge
+   win10_static_0_10
+   mac_static_0_10

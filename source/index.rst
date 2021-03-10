@@ -5,7 +5,7 @@ TP-Link USA Outdoor Solution Guide
 
 There are many TP-Link products that can extend the Internet coverage from your home or business to the outdoor area. This document intended to introduce the various ways to extend your indoor network to the outdoor areas, your backyard, remote barn house, yacht club, or campgrounds.
 
-Near site or remote Site
+Near site or remote site
 ------------------------
 
 We will discuss the different solutions to extend the Internet around your house within 100 meters (300 feet) or farther connections. There are more possible solutions to extend the network just around the house. To extend the network to the remote house or second workplace farther than 300 feet, you need to build a point-to-point wireless bridge and then re-broadcast the signal on the remote location. Different solutions have different environmental requirements. Review the different conditions and then choose the best one for you.
@@ -84,9 +84,9 @@ The EAP Outdoor wireless access points are part of Omada SDN business network. Y
 Set up the EAP Outdoor wireless access point is easy. There is a PoE injector that comes with the package. Plug one end of the network cable to the Outdoor EAP and plug in to the **PoE** port on the PoE injector with the other end of the network cable. Prepare another network cable connecting the network port of the PoE injector to your home gateway.
 
 .. note:: 
-   check up this `how to guide`_ |ExtLink| for detailed steps setting up the EAP in standalone mode.
+   check up this `how to guide`_ for detailed steps setting up the EAP in standalone mode.
 
-.. _how to guide: https://omada-sdn.readthedocs.io/en/latest/
+.. _how to guide: https://omada-sdn.readthedocs.io/en/latest/how_to/eap_onboarding.html
 
 The coverage of the wireless can be 100 meter (300 feet) radius from the access point.
 

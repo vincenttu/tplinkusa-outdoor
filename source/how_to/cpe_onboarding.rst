@@ -29,7 +29,7 @@ The TP-Link Pharos CPEs are the outdoor wireless access points designed for long
     +------------+--------+--------+--------+
 
 Log in to the PharOS
-====================
+--------------------
 
 The Pharos CPE has the default IP at 192.168.0.254/24. To access the PharOS web GUI page, you have to set your computer's IP address within the same subnet such as 192.168.0.10.
 

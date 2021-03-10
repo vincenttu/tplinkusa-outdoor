@@ -96,10 +96,10 @@ The EAP225-Outdoor mesh network supports up to 3 hops of wireless uplink. The re
 
 
 Frequent Asked Questions
-========================
+------------------------
 
 The range estimation was based on clear line-of-sight radio path. What if I have something in between?
-------------------------------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Electromagnetic conductors, such as a metal plate, is definitely a major blocker of the radio wave. Other materials have different effects as well. Here’s a list of material and radio attenuation in general. You can put the attenuation in the rangefinder formula for a new estimation.
 
@@ -153,13 +153,13 @@ Electromagnetic conductors, such as a metal plate, is definitely a major blocker
 +-----------------------------+---------------------+-------------------+
 
 How to place your wireless device for optimal reception and performance?
-------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     
 1. Make sure there is no blocker between two wireless devices (Line-of-sight)
 2. Adjust outdoor EAP adjustable antennas 90° to each other in a complex environment. Try different angles to get the best reflection and deflection in the radio path.
 
 What is Line-of-sight?
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 The electromagnetic line-of-sight defined by a `Fresnel zone`_ |ExtLink|. Other than the line that draws from the center point from one access point to another. Any obstacles falling in the Fresnel zone will be considered a blocker of the radio waves. The easiest way to avoid the blockers is elevating  the antenna. The height of the antenna should be good enough to remove blockers in the Fresnel zone.
 

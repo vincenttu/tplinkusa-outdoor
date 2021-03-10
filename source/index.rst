@@ -5,12 +5,12 @@ TP-Link USA Outdoor Solution Guide
 
 There are many TP-Link products that can extend the Internet coverage from your home or business to the outdoor area. This document intended to introduce the various ways to extend your indoor network to the outdoor areas, your backyard, remote barn house, yacht club, or campgrounds.
 
-Near Site or Remote Site
+Near site or remote Site
 ------------------------
 
 We will discuss the different solutions to extend the Internet around your house within 100 meters (300 feet) or farther connections. There are more possible solutions to extend the network just around the house. To extend the network to the remote house or second workplace farther than 300 feet, you need to build a point-to-point wireless bridge and then re-broadcast the signal on the remote location. Different solutions have different environmental requirements. Review the different conditions and then choose the best one for you.
 
-Near Site network extension (up to 100 meter or 300 feet)
+Near site network extension (up to 100 meter or 300 feet)
 ---------------------------------------------------------
 
 You probably have very good indoor wireless, and you want to extend the network to the patio or the backyard. The wireless signal can easily penetrate through the window glass, but it is hard to penetrate the stucco wall. The reason is that most of the stucco walls are installed with the mesh metal wire to hold the filler. The mesh metal wires are the perfect blocker of the wireless signal. It can prevent the wireless interference from outside of the building to protect your home. At the same time, it can prevent the signal transmit from indoor to the outdoor as well.
@@ -53,14 +53,14 @@ Using the power line for the backyard office, you need to find the direct connec
 .. note:: 
     Other than AFCI or GFCI circuit breaker, you need to avoid the surge protector, power strip, and UPS, Uninterrupted Power Supply. Those devices will filter the high frequency transpassing which the power line communication depends on.
 
-Outdoor Wireless Access Point
+Outdoor wireless access point
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If your patio is not shedded or the power line communication was not the best choice. You can choose to install an outdoor access point.
  
 There are 2 different choices of the outdoor wireless access points from TP-Link, the omni-directional EAP outdoor access points (EAP225-Outdoor and EAP110-Outdoor), and the directional CPE outdoor access points (CPE210, CPE510, and CPE710). All outdoor wireless access points come with waterproof housing which can be exposed with cover or not.
 
-Omni-directional EAP Outdoor Wireless Access points
+Omni-directional EAP outdoor wireless access points
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 The EAP Outdoor wireless access points are part of Omada SDN business network. You can control the indoor and outdoor network with the same Omada SDN controller. Or, you can use the Omada outdoor EAP as a standalone wireless access point without a controller. Two of the models are available:
@@ -112,7 +112,7 @@ The EAP225-Outdoor mesh can wirelessly link back to the network up to 3 hops. A 
     A yacht club wireless deployment example with EAP225-Outdoor
 
 
-Directional Outdoor Wireless Access points
+Directional outdoor wireless access points
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 The CPE Outdoor wireless access points are part of Pharos long distance wireless bridge products. You can also use it to extend the signal around your house if the beam width coverage is good to you:
@@ -162,7 +162,7 @@ The CPE710 access point comes with a feed antenna and a reflective dish. You can
     :width: 80%
     :align: center
 
-Remote Site network expansion (more than 100 meter or 300 feet and up to 18 miles)
+Remote site network expansion (more than 100 meter or 300 feet and up to 18 miles)
 ----------------------------------------------------------------------------------
 
 If you have a barn house, a remote surveillance camera, or a video doorbell on the vineyard entrance, and the distance from your house is more than 300 feet, you can use the outdoor CPE building a wireless bridge to expand the network.
@@ -178,7 +178,4 @@ On the remote site, you can broadcast the wireless signal with an additional wir
    :caption: Document Index:
 
    wireless_range
-   cpe_onboarding
-   cpe_bridge
-   win10_static_0_10
-   mac_static_0_10
+   how_to/index

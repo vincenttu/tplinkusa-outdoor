@@ -58,3 +58,14 @@ A complete set up video guide is available here:
 .. raw:: html
 
     <iframe align="center" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ISUSlTcgWks" frameborder="0" allowfullscreen></iframe>
+
+Frequent Asked Questions
+------------------------
+
+**Should I set the IP address of the CPE to the DHCP client?**
+
+You can set the CPE’s IP address assigned by the DHCP server so you can dynamically manage the CPEs. When you build a wireless bridge using a pair of the CPEs, it is recommended that you set the management IP static. It can save unnecessary bandwidth and guarantee that you can always visit the CPE with the assigned IP address.
+
+**Should I set the IP address of the CPE within the LAN subnet?**
+
+It depends on the complexity of your local network. If you have a small network, reserve the IP address within the LAN subnet is easier to manage when necessary. If you have a more complex network environment, you can leave the IP address of the CPE out of the LAN IP range, so the local user cannot visit and manage the CPEs. A formal way of isolating management subnet and user subnet is setting up the management VLAN. You can set up the management VLAN on the CPE. Please reference the user’s guide for more detail.

@@ -179,3 +179,4 @@ On the remote site, you can broadcast the wireless signal with an additional wir
 
    wireless_range
    how_to/index
+   use_case/index

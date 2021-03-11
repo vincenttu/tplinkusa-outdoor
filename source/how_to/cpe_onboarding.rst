@@ -1,7 +1,7 @@
 How to set up a CPE
 ===================
 
-The TP-Link Pharos CPEs are the outdoor wireless access points designed for long range point to point communications.
+The TP-Link Pharos CPEs are the outdoor wireless access points designed for long range point to point communications. Here're definitions of the product related terms:
 
 **Pharos**
 	Is the name of the product line for long range wireless bridge. 

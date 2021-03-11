@@ -23,6 +23,9 @@ The Omada EAP has a built-in DHCP client enabled by default. It can get the IP a
     :width: 80%
     :align: center
 
+Set up wizard
+-------------
+
 On your computer, search for the SSID TP-Link_xxxx and connect to it. No password was required from factory default. Make sure your computer can get the gateway GUI or Internet. Enter **http://tplinkeap.net** in your browser to get the EAP login page.
 
 .. image:: /images/eap_225_login.png

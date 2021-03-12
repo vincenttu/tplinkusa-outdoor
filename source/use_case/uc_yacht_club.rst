@@ -5,6 +5,7 @@ Here is an outdoor wireless coverage example. A yacht club wants to provide Inte
 
 .. image:: /images/uc_yacht_club.png
     :align: center
+    :width: 70%
 
 According to the recommendation of the Netflix.com, the bandwidth requirements are:
 
@@ -28,11 +29,13 @@ A simple 3 access points plan with EAP225-Outdoor can cover all the boats. All 3
 
 .. image:: /images/uc_yacht_club_3.png
     :align: center
+    :width: 70%
 
 The access point C has a 320 feet radius service range to 30 boats. The wireless path is longer and the loading is heavier. The customer has some concerns on it. It is possible to make the service area smaller to distribute the load. So, we then break the lower single access point service area to be served by 3 EAP225-Outdoor. 
 
 .. image:: /images/uc_yacht_club_5.png
     :align: center
+    :width: 70%
 
 When an access point can be hard wired to the network, it is easier to maintain and the hard wire provides the separate bandwidth for uplink than wireless downlink. In this 5 EAPs wireless plan, you can see the access point E is not attached to the building. It was planned to be mounted on the sidewalk lamp pole and wirelessly meshed to the main network. This installations provides a great flexibility when choosing the installation spot.
 
@@ -40,6 +43,7 @@ After the discussion between the installer and the landlord. They decided that t
 
 .. image:: /images/uc_yacht_club_cpe.png
     :align: center
+    :width: 70%
 
 Settings
 --------

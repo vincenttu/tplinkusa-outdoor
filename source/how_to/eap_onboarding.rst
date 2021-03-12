@@ -35,11 +35,11 @@ On your computer, search for the SSID TP-Link_xxxx and connect to it. No passwor
 Enter **admin** as the username and **admin** again for the password to login to the set up GUI. Change the user name and password before you proceed to change other settings.
 
 .. image:: /images/eap_new_account.png
-    :width: 80%
+    :width: 60%
     :align: center
 
 Follow the setup wizard to enter the SSID and password and save the settings.
 
 .. image:: /images/eap_wireless_setup.png
-    :width: 80%
+    :width: 60%
     :align: center

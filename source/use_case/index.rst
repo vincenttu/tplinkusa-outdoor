@@ -8,4 +8,5 @@ Here's the set up examples for the outdoor wireless.
     :caption: Outdoor wireless set up examples:
 
     uc_yacht_club
+    uc_highway_sign
  

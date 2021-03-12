@@ -100,7 +100,7 @@ The EAP225-Outdoor mesh network can be extended up to 3 hops with only the wirel
     :align: center
     :width: 70%
 
-    An example of outdoor mesh wireless planning for a paint ball battle field
+    An example of outdoor mesh wireless planning for a paintball battle field
 
 Frequent Asked Questions
 ------------------------

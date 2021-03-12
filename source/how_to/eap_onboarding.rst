@@ -3,6 +3,9 @@ How to set up an EAP in standalone mode
 
 The Omada EAP can work in controller mode or standalone mode. You can set up and use the EAP as a simple access point without a controller.
 
+List of outdoor EAPs
+~~~~~~~~~~~~~~~~~~~~
+
 .. table:: TP-Link Outdoor Omada EAPs
     :align: center
 
@@ -20,7 +23,7 @@ Network topology
 The Omada EAP has a built-in DHCP client enabled by default. It can get the IP address from the home gateway dynamically. Connect the EAP to the PoE injector that comes with the product, plug in to the PoE port. Connect the LAN port of the PoE injector to the home gateway. Power on the EAP.
 
 .. image:: /images/eap_topology.png
-    :width: 80%
+    :width: 70%
     :align: center
 
 Set up wizard

@@ -1,7 +1,7 @@
 How to set up a CPE
 ===================
 
-The TP-Link Pharos CPEs are the outdoor wireless access points designed for long range point to point communications. Here're definitions of the product related terms:
+The TP-Link Pharos CPEs are the outdoor wireless access points designed for long range point to point communications. Here are related terms for the outdoor CPEs:
 
 **Pharos**
 	Is the name of the product line for long range wireless bridge. 
@@ -11,6 +11,10 @@ The TP-Link Pharos CPEs are the outdoor wireless access points designed for long
 
 **Pharos Control**
 	Pharos Control is a controller to control multiple Pharos products. It maintains location information and has TDMA, Time Division Multiple Access, management features mainly for point to multiple point long range communications. For a single point to point bridge or a single access point, you don’t need the controller to manage the network.
+
+
+Product list
+~~~~~~~~~~~~
 
 .. table:: TP-Link Pharos CPEs
     :align: center
@@ -45,11 +49,12 @@ When you first time log in to the PharOS, enter the user name **admin** and pass
 
 .. image:: /images/PharOS.png
     :align: center
+    :width: 80%
 
 You have to change your user name and password on the first time login. Set up account information and then login again.
 
-Set up CPE as an access point
------------------------------
+1. Set up CPE as an access point
+--------------------------------
 
 The CPE can work in different operation modes, it is set to access point mode by default. You can simply change the wireless settings to complete the setup.
 
@@ -57,14 +62,16 @@ Choose the **WIRELESS** tab. Then in the **Wireless AP Settings** section, chang
 
 .. image:: /images/PharOS.png
     :align: center
+    :width: 80%
 
 The CPE is an enterprise product and has separated stages of working image, one is running image and one is boot image. After you change the wireless settings, you have to click the **Save** again to save the running configurations to the boot configuration. Otherwise, the settings will not be remembered after the power cycle.
 
 .. image:: /images/PharOS_save.png
     :align: center
+    :width: 80%
 
-Set up CPE as an client
------------------------
+2. Set up CPE as an client
+--------------------------
 
 To build a wireless bridge, you can set one of the CPE as the access point and then the second CPE as a client connecting to the first access point. To set up a CPE as an client, you have to change the **operation mode**.
 
@@ -72,6 +79,7 @@ Choose the **Client** in the **Operation Mode**.
 
 .. image:: /images/PharOS_modes.png
     :align: center
+    :width: 80%
 
 Click **Yes** to confirm the mode change.
 
@@ -82,18 +90,20 @@ In **Wireless Client Settings** section, enter the SSID and password, then click
 
 .. image:: /images/PharOS_client.png
     :align: center
+    :width: 80%
 
 Click on the **Save** to save the settings.
 
 .. image:: /images/PharOS_save.png
     :align: center
+    :width: 80%
 
 .. note::
     You can click on the **Survey** to search for the access point. Check the access point and then click **Connect** to copy the SSID to the settings page.
 
     .. image:: /images/PharOS_survey.png
         :align: center
-        :width: 70%
+        :width: 80%
 
 .. warning::
     Remember to change the IP address of the client CPE different to the access point CPE so you can visit both CPEs when they are connected.

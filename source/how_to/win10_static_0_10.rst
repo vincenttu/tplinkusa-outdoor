@@ -19,6 +19,7 @@ There are many ways to set up the static IP on your network card in Windows 10. 
 
 .. image:: /images/Win10_Ethernet_Card.png
     :align: center
+    :width: 70%
 
 4. Click on **Properties** to change the network card options.
 

@@ -15,10 +15,12 @@ How to set up static IP on the macOS
 
 .. image:: /images/mac_networking_cpe.png
     :align: center
+    :width: 90%
 
 4. Choose the **TCP/IP** tab, then **Manually** configure IPv4. Enter the IPv4 address and subnet mask. The **Router** is not required if you just want to set up the wireless access point. Or, you can enter the gateway address for your local network.
 
 .. image:: /images/mac_networking_ip_0_10.png
     :align: center
+    :width: 90%
 
 5. Click **OK** then **Apply** to apply the network card setting change.

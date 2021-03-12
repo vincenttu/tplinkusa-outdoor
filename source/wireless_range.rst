@@ -27,6 +27,8 @@ The radio waves are directional and guided by the antenna. The CPE access point 
 Device characteristics
 ----------------------
 
+Here's the TP-Link outdoor access point wireless characteristics. They are the key factors for good radio signals. On the cell phone, we simply use an average number. If you happen knowing the device you use, you can replace it with the numbers you have.
+
 .. table:: Device Radio Characteristics
 
     +-----------+--------+--------+--------+-----------+-----------+------------+
@@ -39,7 +41,10 @@ Device characteristics
     | Tx Power  | 25 dBm | 26 dBm | 27 dBm | 30 dBm    | 30dBm     | 10 dBm     |
     +-----------+--------+--------+--------+-----------+-----------+------------+
 
-The Outdoor EAP has omni-directional antennas with 360° radio emitting directions. The Outdoor CPE access points are focused on one direction. The radio characteristics of a cell phone is just an example. You can change this value in following calculations. 
+The Outdoor EAP has omni-directional antennas with 360° radio emitting directions. The Outdoor CPE access points are focused on one direction.
+
+Calculate the range from the outdoor AP to a cell phone
+-------------------------------------------------------
 
 To find out the communication range, we can figure out the FSPL allowance and then translate the FSPL into the distance. We can rewrite the FSPL formula like this:
 
@@ -48,9 +53,6 @@ To find out the communication range, we can figure out the FSPL allowance and th
     :align: center
 
 Where the d is the distance in meters and the f is the frequency in MHz.
-
-Calculate the range from the outdoor AP to a cell phone
--------------------------------------------------------
 
 With all the formula and device parameters, let’s calculate the estimated wireless range.
 
@@ -67,7 +69,7 @@ From the table, we can find that the transmission from the outdoor access point 
 
     Range estimation from a cell phone to an AP
 
-The distance estimation is much shorter because of the radio power provided by the cell phone. The transmit power can be better if you have an external wireless adapter on a laptop computer, such as Archer T4U Plus.
+The distance estimation is much shorter because of the radio power provided by the cell phone is usually lower. With a better antenna on the access point, you can still get a better range compare to home wireless routers. The transmit power on the client side can be improved if you have an external wireless adapter on a laptop computer, such as Archer T4U Plus.
 
 .. note:: 
     1. The EAP225-Outdoor is a dual band access point. The 2.4GHz performance is the same as the EAP110-Outdoor and didn’t show on the table separately.
@@ -89,11 +91,16 @@ The maximum range of the CPE wireless bridge was tested in the field and listed 
 
 When you set up a pair of CPE as a wireless bridge. You can set one of the CPE to be the access point and the other CPE as a client to build the bridge. Please reference the the user’s manual for how to set up the CPE.
 
-The range of Outdoor EAP
-------------------------
+Outdoor EAP mesh connectivity and maximum range
+-----------------------------------------------
     
-The EAP225-Outdoor mesh network supports up to 3 hops of wireless uplink. The recommended maximum hop distance is 100 meters. So, the maximum mesh coverage will be 400 meters radius area.
+The EAP225-Outdoor mesh network can be extended up to 3 hops with only the wireless connections. The recommended maximum distance on each hop is 100 meters. So, the maximum mesh coverage will be 400 meters radius area.
 
+.. figure:: /images/uc_mesh_simulation.png
+    :align: center
+    :width: 70%
+
+    An example of outdoor mesh wireless planning for a paint ball battle field
 
 Frequent Asked Questions
 ------------------------

@@ -22,8 +22,8 @@ You need to set up a wired communication to penetrate the exterior wall of the b
     :width: 50%
     :align: center
 
-Power line communication
-~~~~~~~~~~~~~~~~~~~~~~~~
+Near site solution 1: Power line communication
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you have a covered patio or waterproof electric box, you can extend the network with the power line adapters. The TL-WPAxx series power line wireless adapter kit is the easier to apply solution. The power line wireless adapter kit comes with two power line communication adapters. One adapter installed in the indoor can relay the data from the network cable to the power line and the other adapter has additional capability to broadcast the WiFi signal to your computer or phone.
 
@@ -53,15 +53,15 @@ Using the power line for the backyard office, you need to find the direct connec
 .. note:: 
     Other than AFCI or GFCI circuit breaker, you need to avoid the surge protector, power strip, and UPS, Uninterrupted Power Supply. Those devices will filter the high frequency transpassing which the power line communication depends on.
 
-Outdoor wireless access point
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Near site solution 2: Outdoor wireless access point
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If your patio is not shedded or the power line communication was not the best choice. You can choose to install an outdoor access point.
  
 There are 2 different choices of the outdoor wireless access points from TP-Link, the omni-directional EAP outdoor access points (EAP225-Outdoor and EAP110-Outdoor), and the directional CPE outdoor access points (CPE210, CPE510, and CPE710). All outdoor wireless access points come with waterproof housing which can be exposed with cover or not.
 
-Omni-directional EAP outdoor wireless access points
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1. Omni-directional EAP outdoor wireless access points
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 The EAP Outdoor wireless access points are part of Omada SDN business network. You can control the indoor and outdoor network with the same Omada SDN controller. Or, you can use the Omada outdoor EAP as a standalone wireless access point without a controller. Two of the models are available:
  
@@ -94,8 +94,8 @@ The coverage of the wireless can be 100 meter (300 feet) radius from the access 
     :width: 80%
     :align: center
 
-Outdoor wireless mesh networking
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2. Outdoor wireless mesh networking
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Extending radio signal with outdoor EAP is different to the outdoor CPE. The only outdoor EAP supports wireless extender feature is the EAP225-Outdoor. To extend the radio signal, you have to set up a wireless mesh network. The wireless mesh network requires a controller to coordinate the traffic, so a basic topology of outdoor EAP mesh network can be like this.
 
@@ -112,8 +112,8 @@ The EAP225-Outdoor mesh can wirelessly link back to the network up to 3 hops. A 
     A yacht club wireless deployment example with EAP225-Outdoor
 
 
-Directional outdoor wireless access points
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+3. Directional outdoor wireless access points
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 The CPE Outdoor wireless access points are part of Pharos long distance wireless bridge products. You can also use it to extend the signal around your house if the beam width coverage is good to you:
  

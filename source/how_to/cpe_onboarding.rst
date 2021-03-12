@@ -14,7 +14,7 @@ The TP-Link Pharos CPEs are the outdoor wireless access points designed for long
 
 
 Product list
-~~~~~~~~~~~~
+------------
 
 .. table:: TP-Link Pharos CPEs
     :align: center

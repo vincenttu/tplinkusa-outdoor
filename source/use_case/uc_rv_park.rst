@@ -27,11 +27,30 @@ The outdoor mesh network can be controlled by an OC200 network controller. The c
     :width: 80%
     :align: center
 
+On the RV
+---------
+
+You may visit different campgrounds from time to time and the WiFi signal quality will be varied from one to another. A sensitive wireless antenna (receiver) is what you need to receive the best signal from the campground office.
+
+.. image:: /images/uc_rv_park_mesh_cpe.png
+    :width: 60%
+    :align: center
+    
+The Pharos CPE has 2.4GHz (CPE210) and 5GHz (CPE510). Most of the campgrounds provide 2.4GHz service. Therefore, the CPE210 is your best bet as a receiving device. 5GHz has less interference, you may get better traffic over 5GHz if the campground provide the service.
+
+.. image:: /images/uc_rv_park_cpe_topo.png
+    :width: 80%
+    :align: center
+        
+    
     
 Installation
 ------------
 
-* Reference `Omada SDN Cookbook`_ for detail instructions on access point set up.
+* Reference `Omada SDN Cookbook`_ for detail instructions of EAP mesh network set up.
+* Reference `how to set up a CPE as a receiver`_ for detail instructions RV receiver set up.
 * Remember using a shielded Ethernet cable to connect to the access point and ground the PoE injector proper to provide the best lighting protection.
 
 .. _Omada SDN Cookbook: https://omada-sdn.readthedocs.io/en/latest/index.html
+
+`how to set up a CPE as a receiver`_: how_to/cpe_onboarding.html#set-up-cpe-as-an-client

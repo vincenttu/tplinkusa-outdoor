@@ -1,6 +1,10 @@
 Outdoor Wireless Example : Remote Camera
 ========================================
 
+.. image:: /images/uc_camera.png
+    :width: 100%
+    :align: center
+
 You may have a far away grassland and you want to monitor your cattles there. You may have a parking lot that needs to be monitored on the other size of the building. The easiest way of sending back the pictures is using wireless.
 
 One way or two way communication?

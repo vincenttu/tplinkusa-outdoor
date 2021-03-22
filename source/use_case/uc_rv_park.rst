@@ -1,6 +1,10 @@
 Outdoor Wireless Example : RV Park
 ==================================
 
+.. image:: /images/uc_rv.png
+    :width: 100%
+    :align: center
+
 Traveling with RV is fun, not having the Internet connection is not. Providing a good WiFi signal to the whole RV campground is necessary today. But, how?
 
 Single AP coverage 

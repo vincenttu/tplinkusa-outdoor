@@ -32,7 +32,7 @@ On the RV
 
 You may visit different campgrounds from time to time and the WiFi signal quality will be varied from one to another. A sensitive wireless antenna (receiver) is what you need to receive the best signal from the campground office.
 
-.. image:: /images/uc_rv_park_mesh_cpe.png
+.. image:: /images/uc_rv_park_cpe.png
     :width: 60%
     :align: center
     
@@ -53,4 +53,4 @@ Installation
 
 .. _Omada SDN Cookbook: https://omada-sdn.readthedocs.io/en/latest/index.html
 
-`how to set up a CPE as a receiver`_: how_to/cpe_onboarding.html#set-up-cpe-as-an-client
+.. _how to set up a CPE as a receiver: how_to/cpe_onboarding.html#set-up-cpe-as-an-client

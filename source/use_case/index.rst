@@ -5,6 +5,12 @@ Outdoor wireless set up examples
     :maxdepth: 2
 
     uc_backyard
+    uc_highschool_court
+    uc_outdoor_cinema
+    uc_swimming_pool
+    uc_remote_camera
+    uc_parking_lot
+    uc_rv_park
     uc_yacht_club
     uc_highway_sign
  

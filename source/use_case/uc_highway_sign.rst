@@ -1,6 +1,10 @@
 Outdoor Wireless Example : Highway Billboard
 ============================================
 
+.. image:: /images/uc_billboard.png
+    :align: center
+    :width: 100%
+
 In this example, a customer wants to update the content display on a highway billboard. The control PC is sitting in a nearby building. There is a small hill along the highway between the building and the billboard. The customer wants to know how high the CPE should be installed.
 
 .. image:: /images/uc_cpe_highway_sign.png

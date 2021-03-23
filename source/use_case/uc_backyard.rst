@@ -1,6 +1,10 @@
 Outdoor Wireless Example : Backyard WiFi
 ========================================
 
+.. image:: /images/uc_backyard.png
+    :width: 100%
+    :align: center
+
 The most obvious solution to a backyard Wifi is adding up an EAP or CPE. An EAP comes with two 360°  omni-directional antennas which can cover 100 meters (300 feet) radius outdoor area. 
 
 .. image:: /images/eap225-coverage.png

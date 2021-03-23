@@ -1,5 +1,5 @@
-Outdoor Wireless Example : - High school football field
-=======================================================
+Outdoor Wireless Example : School football stadium
+==================================================
 
 .. image:: /images/uc_football.png
     :width: 100%
@@ -7,8 +7,8 @@ Outdoor Wireless Example : - High school football field
 
 At the school football stadium, you may want to provide basic Internet access to all the audiences, to share the pictures or the videos. Most of the time, the football stadium is away from the office and has no network cable buried when it was built. How can we provide the network services to the bench area?
 
-To the audiences
-----------------
+To the bench area
+-----------------
 
 Separate the bench areas in different sections of services. In this example, there are 2 major bench areas and each area can be covered by 250 feet radius from the stadium lighting poles. We can mount a 360° EAP access point for the service. Since the uplink speed is up to 300Mbps, we can simply deploy an EAP110-Outdoor here.
 

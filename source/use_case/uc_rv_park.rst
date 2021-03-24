@@ -32,11 +32,10 @@ The outdoor mesh network can be controlled by an OC200 network controller. The c
     :align: center
 
 
-What about the line-of-sight?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What about the line-of-sight requirement?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 It is critical in point-to-point CPE communication and has alternatives in EAP mesh networking. Any non-direct wireless beam from the sender to the receiver will be considered interference. Especially in miles long communications. However, it is more tolerated in shorter outdoor wireless communications. The EAP mesh networking not only can pick up the direct  wireless beam, but also can take reflected and deflected beams as the wireless path. The wireless MIMO coordinates the direct and indirect communications. So, the wireless communication is still available with partial blocking by the woods or leaves.
-
 
 On the RV
 ---------
@@ -51,9 +50,7 @@ The Pharos CPE has 2.4GHz (CPE210) and 5GHz (CPE510). Most of the campgrounds pr
 
 .. image:: /images/uc_rv_park_cpe_topo.png
     :width: 80%
-    :align: center
-        
-    
+    :align: center  
     
 Installation
 ------------

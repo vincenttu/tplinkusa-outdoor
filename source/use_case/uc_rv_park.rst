@@ -5,7 +5,7 @@ Outdoor Wireless Example : RV Park
     :width: 100%
     :align: center
 
-Traveling with RV is fun, not having the Internet connection is not. Providing a good WiFi signal to the whole RV campground is necessary today. But, how?
+Traveling with RV is fun, not having the Internet connection is not. Providing a good WiFi connection to the RV campers is import and necessary. But, how?
 
 Single AP coverage 
 ------------------
@@ -30,6 +30,13 @@ The outdoor mesh network can be controlled by an OC200 network controller. The c
 .. image:: /images/uc_rv_park_mesh_topo.png
     :width: 80%
     :align: center
+
+
+What about the line-of-sight?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+It is critical in point-to-point CPE communication and has alternatives in EAP mesh networking. Any non-direct wireless beam from the sender to the receiver will be considered interference. Especially in miles long communications. However, it is more tolerated in shorter outdoor wireless communications. The EAP mesh networking not only can pick up the direct  wireless beam, but also can take reflected and deflected beams as the wireless path. The wireless MIMO coordinates the direct and indirect communications. So, the wireless communication is still available with partial blocking by the woods or leaves.
+
 
 On the RV
 ---------

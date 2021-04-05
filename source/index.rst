@@ -117,12 +117,16 @@ The EAP225-Outdoor mesh can wirelessly link back to the network up to 3 hops. As
  
 The CPE Outdoor wireless access points are part of Pharos long-distance wireless bridge products. You can also use outdoor APs to extend the signal around your house if the beam width coverage is suitable to you: 
  
-* `CPE210 2.4GHz N300 Outdoor Wireless Access Point`_ |ExtLink|
+* `CPE210 2.4GHz N300 Outdoor Wireless Access Point`_ |ExtLink| |AmzCPE210|
 * `CPE510 5GHz N300 Outdoor Wireless Access Point`_ |ExtLink|
 * `CPE710 5GHz AC867 Outdoor Wireless Access Point`_ |ExtLink|
 
 .. |ExtLink| image:: /images/External_Link.png
                      :width: 10 px
+
+.. |AmzCPE210| raw:: html
+    <a href="https://amzn.to/3dhoy3m">
+    <img src="/images/amz_logo.png" width="15pt" alt="Amazon.com"/></a>
 
 .. _CPE210 2.4GHz N300 Outdoor Wireless Access Point: https://www.tp-link.com/us/business-networking/outdoor-radio/cpe210/
 
@@ -133,9 +137,7 @@ The CPE Outdoor wireless access points are part of Pharos long-distance wireless
 The CPE Outdoor wireless access point provides a strong transmitting signal as well as a high receiving sensitivity. Building a wireless bridge with two identical CPEs can give optimal range and performance. When installing only one CPE device to extend the wireless range, the weaker transmitter will decide the communication range, this is usually your wireless client such as a laptop or a cell phone. 
 
 .. note::
-   Here’s a reference page about `how to calculate the wireless range`_ 
-
-.. _how to calculate the wireless range: wireless_range.html
+   Here’s a reference page about :doc:`wireless_range`
 
 Different model of the Outdoor CPE has different beam width 
 

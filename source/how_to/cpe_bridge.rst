@@ -20,14 +20,29 @@ To set up a long distance wireless bridge, you need to make sure there is a clea
 2. CPE Settings
 ---------------
 
-It is suggested that you open the box, upgrade them to the latest firmware and set up the network before you go for the physical installation. When you go physical installation, you can then focus on how to align two CPEs facing each other. Check `how to set up a CPE`_ for a step by step setting guide.
+It is suggested that you open the box, upgrade them to the latest firmware and set up the network before you go for the physical installation. When you go physical installation, you can then focus on how to align two CPEs facing each other. Check :doc:`/how_to/cpe_onboarding` for a step by step setting guide.
 
-.. _how to set up a CPE: how_to/cpe_onboarding.html
 
 3. Physical Installation
 ------------------------
 
-There is a plastic zip tie that comes with the package.  You can replace it with a metal one if you expect the weather condition to be more severe. Set the CPE set to access point mode as the radio source and observe the signal strength on the other CPE set to client mode.
+There is a plastic zip tie that comes with the package.  You can replace it with a metal one if you expect the weather condition to be more severe.
+
+.. image:: /images/install_cpe_tie.png
+    :align: center
+    :width: 50%
+
+The PoE injector included in the package comes with a mounting plate. Properly secure the mounting plate and then mount on the PoE injector in an indoor location.
+
+.. image:: /images/install_injector_baseboard.png
+    :align: center
+    :width: 25%
+
+.. image:: /images/install_injector_mount.png
+    :align: center
+    :width: 25%
+
+Set the CPE set to access point mode as the radio source and observe the signal strength on the other CPE set to client mode.
 Log in to the PharOS and check the radio status. Adjust the aiming angles on both CPEs to get the best signal strength.
 
 .. image:: /images/cpe_alignment.png
@@ -56,9 +71,8 @@ Video Guide
 A complete set up video guide is available here:
 
 .. raw:: html
-    :align: center
 
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ISUSlTcgWks" frameborder="0" allowfullscreen></iframe>
+    <div align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ISUSlTcgWks" frameborder="0" allowfullscreen></iframe></div>
 
     
 Frequent Asked Questions

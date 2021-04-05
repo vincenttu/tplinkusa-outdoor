@@ -35,9 +35,5 @@ Both CPE and EAP come with weather proof housing resisting the dust and moisture
 Installation
 ------------
 
-* Reference `how to set up a CPE`_ or  `how to set up an EAP`_ for detail instructions on access point set up.
+* Reference :doc:`/how_to/cpe_onboarding` or  :doc:`/how_to/eap_onboarding` for detail instructions on access point set up.
 * Remember using a shielded Ethernet cable to connect to the access point and ground the PoE injector proper to provide the best lighting protection.
-
-.. _how to set up a CPE: how_to/cpe_onboarding.html
-
-.. _how to set up an EAP: how_to/eap_onboarding.html

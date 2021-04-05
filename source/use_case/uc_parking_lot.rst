@@ -19,15 +19,10 @@ Connecting to a camera installed on the light pole of the parking lot is easy. S
 On the office side, if the signal is strong enough that the CPE can detect the signal, you don’t have to do any change. Otherwise, install another Pharos CPE outside of the building. Again, connecting the CPE to the PoE injector and connecting the other port of the PoE injector to the office network. 
 
 .. note::
-	Please reference the `How to calculate the wireless range`_ for requirements of the equipment each way. When doubt, use a pair of the same CPE to build a wireless bridge for the best performance.
-
-.. _How to calculate the wireless range: wireless_range.html
+	Please reference the :doc:`/wireless_range` for requirements of the equipment each way. When doubt, use a pair of the same CPE to build a wireless bridge for the best performance.
 
 Installation
 ------------
 
-* Reference `how to set up a CPE`_ for detail instructions on the CPE set up.
+* Reference :doc:`/how_to/cpe_onboarding` for detail instructions on the CPE set up.
 * Remember using a shielded Ethernet cable to connect to the access point and ground the PoE injector proper to provide the best lighting protection.
-
-.. _how to set up a CPE: how_to/cpe_onboarding.html
-    

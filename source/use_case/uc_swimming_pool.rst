@@ -19,7 +19,5 @@ The EAP access point comes with two 360°  omni-directional antennas which can c
 Installation
 ------------
 
-* Reference `how to set up an EAP`_ for detail instructions on access point set up.
+* Reference :doc:`/how_to/eap_onboarding` for detail instructions on access point set up.
 * Remember using a shielded Ethernet cable to connect to the access point and ground the PoE injector proper to provide the best lighting protection.
-
-.. _how to set up an EAP: how_to/eap_onboarding.html

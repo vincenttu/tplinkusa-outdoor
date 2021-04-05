@@ -17,9 +17,7 @@ Most of the IP cameras send pictures using TCP two way communication by default.
     :align: center
 
 .. note::
-	Please reference the `How to calculate the wireless range`_ for requirements of the equipment each way. When doubt, use a pair of the same CPE to build a wireless bridge for the best performance.
-
-.. _How to calculate the wireless range: wireless_range.html
+	Please reference the :doc:`/wireless_range` for requirements of the equipment each way. When doubt, use a pair of the same CPE to build a wireless bridge for the best performance.
 
 On the camera
 ----------------------------------------
@@ -30,7 +28,5 @@ You can set up a Pharos CPE side by side to the camera using the network port on
 Installation
 ------------
 
-* Reference `how to set up a CPE`_ for detail instructions on the CPE set up.
+* Reference :doc:`/how_to/cpe_onboarding` for detail instructions on the CPE set up.
 * Remember using a shielded Ethernet cable to connect to the access point and ground the PoE injector proper to provide the best lighting protection.
-
-.. _how to set up a CPE: how_to/cpe_onboarding.html

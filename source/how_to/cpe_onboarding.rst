@@ -38,12 +38,8 @@ Log in to the PharOS
 The Pharos CPE has the default IP at 192.168.0.254/24. To access the PharOS web GUI page, you have to set your computer's IP address within the same subnet such as 192.168.0.10.
 
 .. note::
-    * `How to set up static IP on Windows 10`_
-
-    * `How to set up static IP on macOS`_
-
-.. _How to set up static IP on Windows 10: win10_static_0_10.html
-.. _How to set up static IP on macOS: mac_static_0_10.html
+    * :doc:`/how_to/win10_static_0_10`
+    * :doc:`/how_to/mac_static_0_10`
 
 When you first time log in to the PharOS, enter the user name **admin** and password **admin**.
 

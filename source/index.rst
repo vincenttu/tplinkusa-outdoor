@@ -84,7 +84,7 @@ Two available models:
 Setting up the EAP Outdoor wireless access point is quick. Plug one end of the network cable into the Outdoor EAP and plug the other end into the **PoE** port on the included PoE injector. Finally, prepare another network cable to connect the network port of the PoE injector to your home gateway.  
 
 .. note:: 
-   check up this `EAP Onboarding How-to Guide`_ for detailed steps setting up the EAP in standalone mode.
+   Check this `EAP Onboarding How-to Guide`_ for detailed steps on setting up the EAP in standalone mode.
 
 .. _EAP Onboarding How-to Guide: https://omada-sdn.readthedocs.io/en/latest/how_to/eap_onboarding.html
 

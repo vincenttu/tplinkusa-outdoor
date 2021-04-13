@@ -13,4 +13,5 @@ Outdoor wireless set up examples
     uc_rv_park
     uc_yacht_club
     uc_highway_sign
+    uc_hotel_swimming_pool
  

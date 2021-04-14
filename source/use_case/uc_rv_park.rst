@@ -61,4 +61,4 @@ Installation
 
 .. _Omada SDN Cookbook: https://omada-sdn.readthedocs.io/en/latest/index.html
 
-.. _how to set up a CPE as a receiver: how_to/cpe_onboarding.html#set-up-cpe-as-an-client
+.. _how to set up a CPE as a receiver: /how_to/cpe_onboarding.html#set-up-cpe-as-an-client
